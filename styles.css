@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;700&family=Montserrat+Alternates:ital,wght@0,100;0,500;1,100&family=Shadows+Into+Light&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F0EBE3;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: rgb(73, 73, 73);
+}
+
+#main {
+  margin: auto 10px;
+  text-align: center;
+}
+
+.judul {
+  font-family: 'Encode Sans', sans-serif;
+}
+
+.judul h1 {
+  padding-top: 20px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.judul p {
+  margin: 5px 0;
+}
+
+#img-div {
+  background-color: #E4DCCF;
+  padding: 10px;
+  margin: 0 30px;
+}
+
+img {
+  border-radius: 50%;
+  padding: 20px 0;
+  max-width: 100%;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+#tribute-info h4 {
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+#tribute-info p {
+  margin: 0 30px;
+  text-align: justify;
+}
+
+#tribute-info p.first::first-letter {
+  font-size: 200%;
+}
